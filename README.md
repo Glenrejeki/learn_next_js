@@ -1,1 +1,22 @@
 # Learn_Next_JS
+### Daftar Isi
+---
+- [ ] **Pendahuluan (Intro)**
+- [ ] **Persiapan**
+- [ ] **Instalasi**
+- [ ] **Struktur Proyek (Project Structure)**
+- [ ] **Halaman Depan (Homepage)**
+- [ ] **Komponen Header**
+- [ ] **Komponen Footer**
+- [ ] **Pengaturan Halaman Depan & Routing**
+- [ ] **Penggunaan Link**
+- [ ] **Penggunaan Image**
+- [ ] **Mengambil Data dari API**
+- [ ] **Merapikan Kode**
+- [ ] **Penggunaan TypeScript di PostList.tsx**
+- [ ] **Penggunaan TypeScript di Api.ts**
+- [ ] **Mengambil ID Artikel**
+- [ ] **Menampilkan Detail Artikel**
+- [ ] **Menampilkan Semua Artikel**
+- [ ] **Theme Switcher**
+- [ ] **Deploy Next.js ke Vercel**
