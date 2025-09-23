@@ -10,7 +10,7 @@
 - [x] **Komponen Footer**
 - [x] **Pengaturan Halaman Depan & Routing**
 - [x] **Penggunaan Link**
-- [ ] **Penggunaan Image**
+- [x] **Penggunaan Image**
 - [ ] **Mengambil Data dari API**
 - [ ] **Merapikan Kode**
 - [ ] **Penggunaan TypeScript di PostList.tsx**
