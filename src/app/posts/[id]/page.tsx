@@ -1,24 +1,20 @@
-import { getDetailPost, Post } from "@/app/lib/api";
+import React from "react"
+import { getDetailPost } from "@/app/lib/api"
 
 interface PageProps {
   params: {
-    id: string; // id dari URL selalu string
-  };
+    id: string
+  }
 }
 
-export default async function Page({ params }: PageProps): Promise<JSX.Element> {
-  const { id } = params;
-
-  // tunggu hasil fetch
-  const post: Post = await getDetailPost(id);
-
-  console.log("ID dari URL:", id);
-  console.log("Post detail:", post);
+export default async function Page({ params }: PageProps): Promise<React.ReactElement> {
+  const { id } = params
+  const post = await getDetailPost(id)
 
   return (
-    <div className="pos-detail">
+    <div className="post-detail">
       <h1>{post.title}</h1>
       <div className="content">{post.body}</div>
     </div>
-  );
+  )
 }
