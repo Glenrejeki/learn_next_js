@@ -1,22 +1,24 @@
-import {getDetailPost} from "@/app/lib/api"
-
+import { getDetailPost, Post } from "@/app/lib/api";
 
 interface PageProps {
   params: {
-    id: string; // id dari URL selalu string, nanti bisa dikonversi ke number kalau perlu
+    id: string; // id dari URL selalu string
   };
 }
 
 export default async function Page({ params }: PageProps): Promise<JSX.Element> {
   const { id } = params;
-  const post = getDetailPost(id)
-  console.log(post)
+
+  // tunggu hasil fetch
+  const post: Post = await getDetailPost(id);
 
   console.log("ID dari URL:", id);
+  console.log("Post detail:", post);
 
   return (
-    <div>
-      <h1>Detail Post ID: {id}</h1>
+    <div className="pos-detail">
+      <h1>{post.title}</h1>
+      <div className="content">{post.body}</div>
     </div>
   );
 }

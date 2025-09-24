@@ -8,7 +8,7 @@ type PostListProps = {
 
 function PostList({ posts }: PostListProps) {
   return (
-    <div className="post-lisSt">
+    <div className="post-list">
       {posts.map((post) => (
         <h2 key={post.id}>
           <Link href={`/posts/${post.id}`}>{post.title}</Link>

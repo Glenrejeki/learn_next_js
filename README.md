@@ -16,8 +16,8 @@
 - [x] **Penggunaan TypeScript di PostList.tsx**
 - [x] **Penggunaan TypeScript di Api.ts**
 - [x] **Mengambil ID Artikel**
-- [ ] **Menampilkan Detail Artikel**
-- [ ] **Menampilkan Semua Artikel**
+- [x] **Menampilkan Detail Artikel**
+- [x] **Menampilkan Semua Artikel**
 - [ ] **Theme Switcher**
 - [ ] **Deploy Next.js ke Vercel**
 
