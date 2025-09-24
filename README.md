@@ -18,8 +18,8 @@
 - [x] **Mengambil ID Artikel**
 - [x] **Menampilkan Detail Artikel**
 - [x] **Menampilkan Semua Artikel**
-- [ ] **Theme Switcher**
-- [ ] **Deploy Next.js ke Vercel**
+- [x] **Theme Switcher**
+- [x] **Deploy Next.js ke Vercel**
 
 
 
