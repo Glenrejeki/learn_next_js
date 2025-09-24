@@ -11,7 +11,7 @@
 - [x] **Pengaturan Halaman Depan & Routing**
 - [x] **Penggunaan Link**
 - [x] **Penggunaan Image**
-- [ ] **Mengambil Data dari API**
+- [x] **Mengambil Data dari API**
 - [x] **Merapikan Kode**
 - [x] **Penggunaan TypeScript di PostList.tsx**
 - [x] **Penggunaan TypeScript di Api.ts**
