@@ -12,9 +12,9 @@
 - [x] **Penggunaan Link**
 - [x] **Penggunaan Image**
 - [ ] **Mengambil Data dari API**
-- [ ] **Merapikan Kode**
-- [ ] **Penggunaan TypeScript di PostList.tsx**
-- [ ] **Penggunaan TypeScript di Api.ts**
+- [x] **Merapikan Kode**
+- [x] **Penggunaan TypeScript di PostList.tsx**
+- [x] **Penggunaan TypeScript di Api.ts**
 - [ ] **Mengambil ID Artikel**
 - [ ] **Menampilkan Detail Artikel**
 - [ ] **Menampilkan Semua Artikel**
