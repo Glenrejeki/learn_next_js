@@ -15,7 +15,7 @@
 - [x] **Merapikan Kode**
 - [x] **Penggunaan TypeScript di PostList.tsx**
 - [x] **Penggunaan TypeScript di Api.ts**
-- [ ] **Mengambil ID Artikel**
+- [x] **Mengambil ID Artikel**
 - [ ] **Menampilkan Detail Artikel**
 - [ ] **Menampilkan Semua Artikel**
 - [ ] **Theme Switcher**

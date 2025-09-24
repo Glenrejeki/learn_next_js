@@ -10,3 +10,11 @@ export async function getLastPost(): Promise<Post[]> {
   const posts: Post[] = await res.json();
   return posts;
 }
+
+
+
+export async function getDetailPost(id:string): Promise<Post> {
+  const res = await fetch(`https://jsonplaceholder.typicode.com/posts?_limit=5/${id}`);
+  const posts: Post[] = await res.json();
+  return posts;
+}
